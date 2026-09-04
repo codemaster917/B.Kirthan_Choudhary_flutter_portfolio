@@ -1,0 +1,30 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+
+# Web related
+web/lib/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# macOS
+.DS_Store
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

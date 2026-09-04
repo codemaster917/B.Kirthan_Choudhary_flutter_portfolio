@@ -1,0 +1,27 @@
+name: kirthan_flutter_portfolio
+description: "B. Kirthan Choudhary - Flutter Web portfolio"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Only used to open GitHub/LinkedIn/email links from the Contact section.
+  url_launcher: ^6.2.5
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/profile.jpg
